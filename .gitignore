@@ -1,18 +1,5 @@
 .env
 
-package-lock.json
+.next
 
 node_modules
-
-public
-
-
-app/*.js
-app/*/*.js
-
-config.js
-config.ts
-
-createAdminUser.ts
-createAdminUser.js
-
