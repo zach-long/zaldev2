@@ -34,11 +34,33 @@ TBD
 
 ---
 ## Layout
+Concept 1
+
 > For your portfolio webpage, it’s going to be structured into four major parts. The first section, is going to be an About You section. In 2–3 lines, you should describe yourself, your pursuits, and your endeavours. Following, a section on your Work Experience and Education. Again, a sentence per point. Clear, concise, and to the point. And finally, a tiled layout of your 3–4 projects to show prospective employers. These projects should collectively contain all of the technology spoken to above. Clicking on a project should take you to a blog page that summarises the Github Readme.md file that comprehensively details the inner workings and purpose of said project. It should also include a link to the Github code and a live hosted version of the project. At the bottom of your webpage, a link to your Github and LinkedIn page. Your page must be responsive above all else.[^1]
 
 - About
 - Work Experience / Education
 - Projects, tiled
+
+Concept 2
+
+#### Any sections that would be good to have and notes:
+- About
+  - Picture
+  - Skills
+  - Greeting/Summary
+  - Skill sets (eg. "Front End Developer")
+- Projects
+- Testimonials
+- Contact
+  - Call to action
+- Social media links
+
+##### Examples:
+http://findmatthew.com/
+https://mattfarley.ca/
+https://www.dejan.works/
+https://www.driesvanbroeck.be/
 
 ---
 ## Models
