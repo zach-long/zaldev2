@@ -7,22 +7,22 @@ To rewrite my portfolio and give myself the opportunity to use new tools and giv
 
 ---
 ## Progress
-- [] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable.
-- [] Set up a very minimal Next backend and build/bundle pipeline with Webpack. Move "data" from markup to a JSON file to use as a quick datasource.
-- [] Convert index.html to a React/Redux app pulling from JSON file datasource.
-- [] Establish a database point React app there. Build out a backend.
+- [ ] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable.
+- [ ] Set up a very minimal Next backend and build/bundle pipeline with Webpack. Move "data" from markup to a JSON file to use as a quick datasource.
+- [ ] Convert index.html to a React/Redux app pulling from JSON file datasource.
+- [ ] Establish a database point React app there. Build out a backend.
 
 ---
 ## Abstract
 
 ### <u>Backend</u>
-The backend of the portfolio should be able to remain relatively unchanged, but ought to be reevaluated to determine if the extent of such measures if any.
+The backend of the portfolio should be able to remain relatively unchanged, but ought to be reevaluated to determine the extent of such measures, if any.
 
 ### <u>Frontend</u>
 The frontend must demonstrate a clean, new design and present more information than just a wall of projects. In addition to a redesign, it should also present an opportunity to use new tools such as Next.js, or Vue.js.
 
 ### <u>System Design</u>
-I have hosted prior projects in the same way - I set up a linux server with PM2 and host remote. This project presents an opportunity to utilize modern AWS microservice hosting solutions.
+I have hosted prior projects in the same way - I set up a linux server with PM2 and host remote. This project presents an opportunity to utilize modern AWS microservice hosting solutions, if applicable to the overall scope of the project.
 
 ---
 ## The Stack
@@ -65,15 +65,19 @@ Concept 2
 
 ##### Examples:
 http://findmatthew.com/
+
 https://mattfarley.ca/
+
 https://www.dejan.works/
+
 https://www.driesvanbroeck.be/
+
 
 ---
 ## Models
 
 ### <u>Idea 1</u>
-Use a Sage/Section model to CRUD sections of the page and their order, and a Project model for projects. Setup a capped collection Settings model for information like the title or favicon.
+Use a Page/Section model to CRUD sections of the page and their order, and a Project model for projects. Setup a capped collection Settings model for information like the title or favicon.
 - Settings
 - Page
 - Project
@@ -83,7 +87,7 @@ Hardcode the pages and everything in order, use a Project model to CRUD projects
 - Project
 
 ### <u>Idea 3</u>
-Something else?
+TBD
 
 ---
 
