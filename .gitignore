@@ -4,6 +4,6 @@
 
 node_modules
 
-public
+public/images
 
-build/sample.jpg
+*/sample.jpg
