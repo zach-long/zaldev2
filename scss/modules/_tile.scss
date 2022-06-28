@@ -1,0 +1,27 @@
+// modified from
+// https://cssdeck.com/labs/tooltipscss3
+
+$duration: 300ms;
+$delay: 300ms;
+
+.tile {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    -webkit-transition: all $duration ease-in-out;
+    -moz-transition: all $duration ease-in-out;
+    -ms-transition: all $duration ease-in-out;
+    -o-transition: all $duration ease-in-out;
+    transition: all $duration ease-in-out;
+}
+
+*:not(.on-focus):hover>.tile,
+.on-focus input:focus+.tile {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all $duration ease-in-out;
+    -moz-transition: all $duration ease-in-out;
+    -ms-transition: all $duration ease-in-out;
+    -o-transition: all $duration ease-in-out;
+    transition: all $duration ease-in-out;
+}

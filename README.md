@@ -91,4 +91,25 @@ TBD
 
 ---
 
+## Style Notes
+
+Light mode:
+- Text - White or black
+- Sections - White, Zinc, Blue
+- 
+
+Dark mode:
+- Text - Gray (dark or light)
+- Sections - Slate, ?, ? (not blue because Slate is blueish)
+- 
+
+In general, only use slate in dark mode and only use zinc in light mode. Use stark white/black font differences in light mode but use light gray and dark **gray** (not slate or zinc) for dark mode.
+
+---
+
+## Additional Feature To-Do
+
+- [ ] Detect user's system dark/light mode and load matching theme
+- [ ] Detect user's time and present toast on-load to ask about dark/light mode
+
 [^1]: https://medium.com/@_Smoljames/the-self-taught-webdev-roadmap-d5a18a29967e

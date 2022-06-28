@@ -1,0 +1,62 @@
+.underline,
+.underline-sm {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.underline:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background: #0074CC;
+    height: 3px;
+    transition-property: width;
+    // transition-duration: 200ms;
+    // transition-timing-function: ease-out;
+    -moz-transition-property: width;
+    -moz-transition-duration: 200ms;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-property: width;
+    -o-transition-duration: 200ms;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 200ms;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.underline-sm:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -2px;
+    background: #0074CC;
+    height: 2px;
+    transition-property: width;
+    // transition-duration: 200ms;
+    // transition-timing-function: ease-out;
+    -moz-transition-property: width;
+    -moz-transition-duration: 200ms;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-property: width;
+    -o-transition-duration: 200ms;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 200ms;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after,
+.underline-sm:hover:after,
+.underline-sm:focus:after,
+.underline-sm:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
