@@ -42,7 +42,7 @@ export default function About() {
             </div>
             <div className="lg:w-10/12 pt-12 pb-32 flex flex-col justify-center items-center">
                 <div className="flex flex-row flex-wrap-reverse justify-center items-end">
-                    <div className="flex-1 px-16 py-10">
+                    <div className="flex-1 px-16 py-10 2xl:px-40">
                         <div>
                             {/* <img src={ProfilePicture} /> */}
                         </div>
@@ -50,8 +50,8 @@ export default function About() {
                             {skills}
                         </div>
                     </div>
-                    <div className="flex-1 px-16 py-10">
-                        <p className="pb-4 text-center">Curiosity-guided full-stack developer. I am driven by a desire to learn new things, expand the bounds of my understanding, and tackle ever-greater challenges. In my free time, I am an enthusiastic musician, home brewer, and runner - I do not like to sit still.</p>
+                    <div className="flex-1 px-16 py-10 2xl:px-40">
+                        <p className="pb-4 pt-12 text-center">Curiosity-guided full-stack developer. I am driven by a desire to learn new things, expand the bounds of my understanding, and tackle ever-greater challenges. In my free time, I am an enthusiastic musician, home brewer, and runner - I do not like to sit still.</p>
                     </div>
                 </div>
                 {/* <div className="px-16 py-10 text-center">

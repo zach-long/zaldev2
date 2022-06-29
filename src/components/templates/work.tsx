@@ -4,9 +4,9 @@ import Project from '../project';
 
 const projectsList = [
     { _id: 1, imageUrl: 'to-do_list.png', name: 'To-Do List', stack: 'React, Sass, Heroku', projectUrl: 'https://floating-harbor-80134.herokuapp.com/', githubUrl: 'https://github.com/zach-long/react-to-do-list' },
-    { _id: 2, imageUrl: 'searchable_database.png', name: 'DegenesisReference.com', stack: 'React, Typescript, Express, Sass, Webpack, PM2', projectUrl: 'https://degenesisreference.com', githubUrl: 'https://github.com/zach-long/degenesisreference.com' },
-    { _id: 3, imageUrl: 'rocks_playing_guitar.png', name: 'spacebetween.band', stack: 'React, Express, Sass, Gulp, PM2', projectUrl: 'https://spacebetween.band', githubUrl: 'https://github.com/zach-long/space_between' },
-    { _id: 4, imageUrl: 'chatroom.png', name: 'the wall', stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku', projectUrl: 'still-inlet-57542.herokuapp.com/', githubUrl: 'https://github.com/zach-long/TheWall' },
+    { _id: 2, imageUrl: 'searchable_database.png', name: 'DegenesisReference.com', stack: 'React, Typescript, Express, Sass, Webpack, PM2', projectUrl: 'https://degenesisreference.com', githubUrl: '' },
+    { _id: 3, imageUrl: 'rocks_playing_guitar.png', name: 'spacebetween.band', stack: 'React, Express, Sass, Gulp, PM2', projectUrl: 'https://spacebetween.band', githubUrl: '' },
+    { _id: 4, imageUrl: 'chatroom.png', name: 'the wall', stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku', projectUrl: 'https://still-inlet-57542.herokuapp.com/', githubUrl: 'https://github.com/zach-long/TheWall' },
     { _id: 5, imageUrl: 'democracybot.png', name: 'DemocracyBot', stack: 'Javascript, Discord.js', projectUrl: '', githubUrl: 'https://github.com/zach-long/Democracy-Bot' }
 ];
 
@@ -22,7 +22,7 @@ export default function Work() {
             <div className="lg:w-10/12 px-4 lg:px-0 pt-12 pb-32">
                 {/* On hover list stack, on click go to github */}
                 <div className="relative inline-block text-center left-2/4 -translate-x-2/4 pt-10">
-                    <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150">What did I use for this site?</p>
+                    <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p>
                     <div className="tool-tip top text-center px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">React, Redux, Typescript, TailwindCSS, Next, MongoDB<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
                 </div>
                 <div className="flex flex-row flex-wrap justify-center items-center pt-8">

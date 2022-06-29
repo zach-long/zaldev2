@@ -22,11 +22,18 @@ export default function Project(props: ProjectProps) {
             <div className={cardClassList} style={cardStyle}></div>
             <div className={textClassList}>
                 <h3 className="text-xl pb-2 font-bold">{props.name}</h3>
-                <h5 className="w-10/12 inline-block margin-auto px-2 border-x-2 border-solid border-boldblue text-md">{props.stack}</h5>
+                <h5 className="w-10/12 inline-block margin-auto px-2 border-x-2 border-solid border-pizazz text-md">{props.stack}</h5>
             </div>
             <div className={linkClassList}>
-                <a className="grow shrink-0 basis-0 scale-[.40]" href={props.projectUrl} target="_blank"><ExternalLinkIcon className="fill-boldblue hover:fill-darkboldblue transition-all duration-150" /></a>
-                <a className="grow shrink-0 basis-0 scale-[.40]" href={props.githubUrl} target="_blank"><CodeIcon className="fill-boldblue hover:fill-darkboldblue transition-all duration-150" /></a>
+                {props.projectUrl !== '' ?
+                    <a className="grow shrink-0 basis-0 scale-[.40]" href={props.projectUrl} target="_blank"><ExternalLinkIcon className="fill-boldblue hover:fill-darkboldblue transition-all duration-150" /></a> :
+                    <a className="grow shrink-0 basis-0 scale-[.40]"><ExternalLinkIcon className="fill-gray-400" /></a>
+                }
+                {props.githubUrl !== '' ?
+                    <a className="grow shrink-0 basis-0 scale-[.40]" href={props.githubUrl} target="_blank"><CodeIcon className="fill-boldblue hover:fill-darkboldblue transition-all duration-150" /></a> :
+                    <a className="grow shrink-0 basis-0 scale-[.40]"><CodeIcon className="fill-gray-400" /></a>
+                }
+                
             </div>
         </div>
     );
