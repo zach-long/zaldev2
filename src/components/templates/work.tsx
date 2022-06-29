@@ -3,11 +3,11 @@ import React from 'react';
 import Project from '../project';
 
 const projectsList = [
-    { _id: 1, imageUrl: 'sample.jpg', name: 'To-Do List', stack: 'React, Sass, Heroku', projectUrl: 'https://floating-harbor-80134.herokuapp.com/', githubUrl: 'https://github.com/zach-long/react-to-do-list' },
-    { _id: 2, imageUrl: 'sample.jpg', name: 'DegenesisReference.com', stack: 'React, Typescript, Express, Sass, Webpack, PM2', projectUrl: 'https://degenesisreference.com', githubUrl: 'https://github.com/zach-long/degenesisreference.com' },
-    { _id: 3, imageUrl: 'sample.jpg', name: 'spacebetween.band', stack: 'React, Express, Sass, Gulp, PM2', projectUrl: 'https://spacebetween.band', githubUrl: 'https://github.com/zach-long/space_between' },
-    { _id: 4, imageUrl: 'sample.jpg', name: 'the wall', stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku', projectUrl: 'still-inlet-57542.herokuapp.com/', githubUrl: 'https://github.com/zach-long/TheWall' },
-    { _id: 5, imageUrl: 'sample.jpg', name: 'DemocracyBot', stack: 'Javascript, Discord.js', projectUrl: '', githubUrl: 'https://github.com/zach-long/Democracy-Bot' }
+    { _id: 1, imageUrl: 'to-do_list.png', name: 'To-Do List', stack: 'React, Sass, Heroku', projectUrl: 'https://floating-harbor-80134.herokuapp.com/', githubUrl: 'https://github.com/zach-long/react-to-do-list' },
+    { _id: 2, imageUrl: 'searchable_database.png', name: 'DegenesisReference.com', stack: 'React, Typescript, Express, Sass, Webpack, PM2', projectUrl: 'https://degenesisreference.com', githubUrl: 'https://github.com/zach-long/degenesisreference.com' },
+    { _id: 3, imageUrl: 'rocks_playing_guitar.png', name: 'spacebetween.band', stack: 'React, Express, Sass, Gulp, PM2', projectUrl: 'https://spacebetween.band', githubUrl: 'https://github.com/zach-long/space_between' },
+    { _id: 4, imageUrl: 'chatroom.png', name: 'the wall', stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku', projectUrl: 'still-inlet-57542.herokuapp.com/', githubUrl: 'https://github.com/zach-long/TheWall' },
+    { _id: 5, imageUrl: 'democracybot.png', name: 'DemocracyBot', stack: 'Javascript, Discord.js', projectUrl: '', githubUrl: 'https://github.com/zach-long/Democracy-Bot' }
 ];
 
 export default function Work() {
@@ -17,7 +17,7 @@ export default function Work() {
         <section id="work" className="flex flex-col lg:flex-row flex-nowrap min-h-[66vh] bg-zinc-100 dark:bg-slate-800">
             <div className="lg:w-2/12 pt-12 lg:pt-0 relative">
                 <h2 className="lg:text-8xl lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-2/4 lg:absolute text-center text-4xl">Work</h2>
-                <div className="lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-full lg:absolute bg-zinc-400 w-32 lg:w-48 h-1 lg:h-2 mx-auto mt-8"></div>
+                <div className="lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-full lg:absolute bg-zinc-400 w-32 lg:w-48 h-1 lg:h-2 mx-auto mt-8 lg:mt-0"></div>
             </div>
             <div className="lg:w-10/12 px-4 lg:px-0 pt-12 pb-32">
                 {/* On hover list stack, on click go to github */}
