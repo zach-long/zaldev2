@@ -22,7 +22,7 @@ export default function Work() {
             <div className="lg:w-10/12 px-4 lg:px-0 pt-12 pb-32">
                 {/* On hover list stack, on click go to github */}
                 <div className="relative inline-block text-center left-2/4 -translate-x-2/4 pt-10">
-                    <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p>
+                    {/* <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p> */}
                     <div className="tool-tip top text-center px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">React, Redux, Typescript, TailwindCSS, Next, MongoDB<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
                 </div>
                 <div className="flex flex-row flex-wrap justify-center items-center pt-8">

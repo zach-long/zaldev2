@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="flex-1">&copy; Zachary Long 2022</div>
             <div className="flex-1">
                 <ul className="text-center">
-                    <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#home">Top</a></li>
+                    <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#top">Top</a></li>
                     <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#about">About</a></li>
                     <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#work">Work</a></li>
                     <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#contact">Contact</a></li>
