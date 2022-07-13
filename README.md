@@ -7,7 +7,7 @@ To rewrite my portfolio and give myself the opportunity to use new tools and giv
 
 ---
 ## Progress
-- [ ] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable. *20220618: instead of pure static, establish react app with single giga-component
+- [x] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable. *20220618: instead of pure static, establish react app with single giga-component
 - [ ] Set up a very minimal Next backend and build/bundle pipeline with Webpack. Move "data" from markup to a JSON file to use as a quick datasource.
 - [ ] Convert index.html to a React/Redux app pulling from JSON file datasource.
 - [ ] Establish a database point React app there. Build out a backend.
