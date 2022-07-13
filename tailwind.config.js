@@ -16,8 +16,19 @@ module.exports = {
         'xlightpizazz': '#ffbf80',
         'boldblue': '#38A9FF',
         'darkboldblue': '#0074CC'
+      },
+      animation: {
+        'fade-in-name': 'fadeIn 1200ms ease-in 2000ms normal forwards',
+        'fade-in-title': 'fadeIn 1200ms ease-in 3200ms normal forwards',
+        'fade-in-bar': 'fadeIn 600ms ease-in 5000ms normal forwards'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {opacity: 0},
+          '100%': {opacity: 1}
+        }
       }
-    },
+    }
   },
   plugins: [],
   darkMode: 'class'
