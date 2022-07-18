@@ -10,7 +10,7 @@ import Contact from './components/templates/contact';
 import Footer from './components/templates/footer';
 
 const App = () => (
-    <main className="bg-white text-black dark:bg-slate-900 dark:text-white">
+    <main className="bg-white text-black dark:bg-slate-900 dark:text-white scroll-smooth">
         <Header />
         <About />
         <Work />
