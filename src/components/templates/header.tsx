@@ -5,7 +5,7 @@ export default function Header() {
     // const backgroundClasslist = 'absolute bottom-0 left-0 w-[200vw] h-[200vh] bg-gradient-to-tr from-zinc-100 to-slate-400 transition-transform duration-[2000ms] ease-in';
     // const backgroundTransition = '-translate-x-2/4 translate-y-2/4';
     // out from the bottom
-    const backgroundClasslist = 'absolute bottom-[-100vh] left-[-100vw] w-[200vw] h-[200vh] bg-gradient-to-tr from-zinc-100 to-slate-400 transition-transform duration-[2000ms] ease-in';
+    const backgroundClasslist = 'absolute bottom-[-100vh] left-[-100vw] w-[200vw] h-[200vh] bg-gradient-to-tr from-zinc-100 via-zinc-300 to-slate-600 transition-transform duration-[2000ms] ease-in';
     const backgroundTransition = 'translate-x-2/4 -translate-y-2/4';
     const [animated, setAnimated] = useState(false);
     const [bgClass, setBgClass] = useState(backgroundClasslist);
