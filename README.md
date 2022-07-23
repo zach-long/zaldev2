@@ -7,10 +7,10 @@ To rewrite my portfolio and give myself the opportunity to use new tools and giv
 
 ---
 ## Progress
-- [x] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable. *20220618: instead of pure static, establish react app with single giga-component
+- [x] Code out working, static site and deploy to have something up ASAP. This should require nothing more than an index.html and a folder with images. Utilize CDNs in this stage for a quick deliverable. *20220618: instead of a pure static site, establish a react app with single giga-component
 - [ ] Set up a very minimal Next backend and build/bundle pipeline with Webpack. Move "data" from markup to a JSON file to use as a quick datasource.
 - [ ] Convert index.html to a React/Redux app pulling from JSON file datasource.
-- [ ] Establish a database point React app there. Build out a backend.
+- [ ] Establish a database, point React app there. Build out a backend.
 
 ---
 ## Abstract
@@ -22,13 +22,13 @@ The backend of the portfolio should be able to remain relatively unchanged, but 
 The frontend must demonstrate a clean, new design and present more information than just a wall of projects. In addition to a redesign, it should also present an opportunity to use new tools such as Next.js, or Vue.js.
 
 ### <u>System Design</u>
-I have hosted prior projects in the same way - I set up a linux server with PM2 and host remote. This project presents an opportunity to utilize modern AWS microservice hosting solutions, if applicable to the overall scope of the project.
+I have hosted prior projects in the same way - I set up a remote linux server with PM2 & nginx. This project presents an opportunity to utilize modern AWS microservice hosting solutions, if applicable to the overall scope of the project.
 
 ---
 ## The Stack
 **Backend:** Node, Next
 
-**Database:** MongoDB, maybe SQL
+**Database:** MongoDB, maybe SQL instead
 
 **Frontend:** React (Hooks), Redux, TailwindCSS
 
