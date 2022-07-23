@@ -16,14 +16,14 @@ export default function Work() {
     return (
         <section id="work" className="flex flex-col lg:flex-row flex-nowrap min-h-[66vh] bg-zinc-100 dark:bg-slate-800">
             <div className="lg:w-2/12 pt-12 lg:pt-0 relative">
-                <h2 className="lg:text-8xl lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-2/4 lg:absolute text-center text-4xl">Work</h2>
+                <h2 className="font-title font-light lg:text-8xl lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-2/4 lg:absolute text-center text-4xl">Work</h2>
                 <div className="lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-full lg:absolute bg-zinc-400 w-32 lg:w-48 h-1 lg:h-2 mx-auto mt-8 lg:mt-0"></div>
             </div>
             <div className="lg:w-10/12 px-4 lg:px-0 pt-12 pb-32">
                 {/* On hover list stack, on click go to github */}
                 <div className="relative inline-block text-center left-2/4 -translate-x-2/4 pt-10">
-                    {/* <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p> */}
-                    <div className="tool-tip top text-center px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">React, Redux, Typescript, TailwindCSS, Next, MongoDB<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
+                    <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p>
+                    <div className="tool-tip top text-center w-[200%] ml-[-50%] px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">This is still a WIP!<br/><br/>Right now, everything you see is built from React, Typescript, Sass, and TailwindCSS.<br/><br/>I'm currently working on implementing Redux for some new frontend features, and then fleshing-out the backend with Node, Next, and MongoDB.<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
                 </div>
                 <div className="flex flex-row flex-wrap justify-center items-center pt-8">
                     {projects}

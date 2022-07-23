@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('./Ibarra_Real_Nova/IbarraRealNova-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
