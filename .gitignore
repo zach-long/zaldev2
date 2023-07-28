@@ -10,3 +10,4 @@ public/images
 */sample2.jpg
 
 build/app.*
+build/*.ttf

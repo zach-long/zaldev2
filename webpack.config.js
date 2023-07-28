@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-    entry: "./src/app.tsx",
+    entry: "./react-app/app.tsx",
     module: {
         rules: [
             {
