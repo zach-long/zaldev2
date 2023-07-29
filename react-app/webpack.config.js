@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-    entry: "./react-app/app.tsx",
+    entry: "./src/app.tsx",
     module: {
         rules: [
             {
@@ -32,7 +32,7 @@ const config = {
         extensions: [".tsx", ".ts", ".js"],
     },
     output: {
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "../nest-app/public"),
         filename: "app.js",
     },
     devServer: {

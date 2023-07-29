@@ -1,4 +1,8 @@
-# Portfolio v3
+# July 2023 - new README coming soon
+below is outdated and irrelevant but preserved for posterity
+---
+
+# Portfolio
 ---
 ## Goal
 To rewrite my portfolio and give myself the opportunity to use new tools and give it a new look.
