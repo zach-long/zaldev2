@@ -1,12 +1,10 @@
 .env
 
-.next
-
-node_modules
-
-public/images
-
-*/sample.jpg
-*/sample2.jpg
-
-build/app.*
+build
+build/*
+nest-app/dist
+nest-app/public/*.ttf
+nest-app/public/*.js*
+nest-app/node_modules
+react-app/build
+react-app/node_modules

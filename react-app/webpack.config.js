@@ -32,7 +32,7 @@ const config = {
         extensions: [".tsx", ".ts", ".js"],
     },
     output: {
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "../nest-app/public"),
         filename: "app.js",
     },
     devServer: {
