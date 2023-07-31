@@ -3,11 +3,46 @@ import React from 'react';
 import Project from '../project';
 
 const projectsList = [
-    { _id: 1, imageUrl: 'to-do_list.png', name: 'To-Do List', stack: 'React, Sass, Heroku', projectUrl: 'https://floating-harbor-80134.herokuapp.com/', githubUrl: 'https://github.com/zach-long/react-to-do-list' },
-    { _id: 2, imageUrl: 'searchable_database.png', name: 'DegenesisReference.com', stack: 'React, Typescript, Express, Sass, Webpack, PM2', projectUrl: 'https://degenesisreference.com', githubUrl: '' },
-    { _id: 3, imageUrl: 'rocks_playing_guitar.png', name: 'spacebetween.band', stack: 'React, Express, Sass, Gulp, PM2', projectUrl: 'https://spacebetween.band', githubUrl: '' },
-    { _id: 4, imageUrl: 'chatroom.png', name: 'the wall', stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku', projectUrl: 'https://still-inlet-57542.herokuapp.com/', githubUrl: 'https://github.com/zach-long/TheWall' },
-    { _id: 5, imageUrl: 'democracybot.png', name: 'DemocracyBot', stack: 'Javascript, Discord.js', projectUrl: '', githubUrl: 'https://github.com/zach-long/Democracy-Bot' }
+    {
+        _id: 1,
+        imageUrl: 'to-do_list.png',
+        name: 'To-Do List',
+        stack: 'React, Sass, Heroku',
+        projectUrl: '',
+        githubUrl: 'https://github.com/zach-long/react-to-do-list'
+    },
+    {
+        _id: 2,
+        imageUrl: 'searchable_database.png',
+        name: 'DegenesisReference.com',
+        stack: 'React, Typescript, Express, Sass, Webpack, PM2', 
+        projectUrl: '',
+        githubUrl: 'https://github.com/zach-long/degenesisreference.com'
+    },
+    {
+        _id: 3,
+        imageUrl: 'rocks_playing_guitar.png',
+        name: 'spacebetween.band',
+        stack: 'React, Express, Sass, Gulp, PM2',
+        projectUrl: 'https://spacebetween.band',
+        githubUrl: ''
+    },
+    {
+        _id: 4,
+        imageUrl: 'chatroom.png',
+        name: 'the wall',
+        stack: 'Typescript, sockets.io, Express, MongoDB, Sass, Gulp, Heroku',
+        projectUrl: '',
+        githubUrl: 'https://github.com/zach-long/TheWall'
+    },
+    {
+        _id: 5,
+        imageUrl: 'democracybot.png',
+        name: 'DemocracyBot',
+        stack: 'Javascript, Discord.js',
+        projectUrl: '',
+        githubUrl: 'https://github.com/zach-long/Democracy-Bot'
+     }
 ];
 
 export default function Work() {
@@ -20,10 +55,9 @@ export default function Work() {
                 <div className="lg:-rotate-90 lg:-translate-y-2/4 lg:-translate-x-2/4 lg:top-2/4 lg:left-full lg:absolute bg-zinc-400 w-32 lg:w-48 h-1 lg:h-2 mx-auto mt-8 lg:mt-0"></div>
             </div>
             <div className="lg:w-10/12 px-4 lg:px-0 pt-12 pb-32">
-                {/* On hover list stack, on click go to github */}
                 <div className="relative inline-block text-center left-2/4 -translate-x-2/4 pt-10">
                     <p className="font-bold text-boldblue hover:text-darkboldblue transition duration-150 cursor-pointer">What did I use for this site?</p>
-                    <div className="tool-tip top text-center w-[200%] ml-[-50%] px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">This is still a WIP!<br/><br/>Right now, everything you see is built from React, Typescript, Sass, and TailwindCSS.<br/><br/>I'm currently working on implementing Redux for some new frontend features, and then fleshing-out the backend with Node, Next, and MongoDB.<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
+                    <div className="tool-tip top text-center w-[200%] ml-[-50%] px-4 py-2 border rounded-md border-zinc-300 border-solid bg-white">This site is two projects in a trenchcoat.<br/><br/>The frontend is built entirely with React (Typescript dialect) and TailwindCSS which I'm piping through into a Sass file so I can add additional customization.<br/><br/>I'm currently (August 2023) building out a backend on Nest.js with Express for MVC and MySQL to store assets. I want to be able to update content without making a PR!<br /><br /><a className="border-b-2 border-pizazz border-solid underline-sm" href="https://github.com/zach-long/zaldev2" target="_blank">Click to view on GitHub</a></div>
                 </div>
                 <div className="flex flex-row flex-wrap justify-center items-center pt-8">
                     {projects}
