@@ -4,7 +4,7 @@ import { ExternalLinkIcon } from '@heroicons/react/solid';
 export default function Footer() {
     return (
         <footer className="h-48 px-4 lg:px-16 bg-zinc-800 text-white flex flex-row justify-between items-center">
-            <div className="flex-1">&copy; Zachary Long 2022</div>
+            <div className="flex-1">&copy; Zachary Long 2023</div>
             <div className="flex-1">
                 <ul className="text-center">
                     <li><a className="underline-sm border-b-2 border-slate-400 border-solid" href="#top">Top</a></li>
