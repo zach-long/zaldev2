@@ -1,4 +1,12 @@
 .env
+pyzaldev2
+
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
 
 nest-app/dist
 nest-app/public/*.ttf
