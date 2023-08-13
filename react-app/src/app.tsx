@@ -5,6 +5,7 @@ import '/scss/main.scss';
 
 import Header from './components/templates/header';
 import About from './components/templates/about';
+import Skills from './components/templates/skills';
 import Work from './components/templates/work';
 import Contact from './components/templates/contact';
 import Footer from './components/templates/footer';
@@ -13,6 +14,7 @@ const App = () => (
     <main className="bg-white font-body text-black dark:bg-slate-900 dark:text-white scroll-smooth">
         <Header />
         <About />
+        <Skills />
         <Work />
         <Contact />
         <Footer />
